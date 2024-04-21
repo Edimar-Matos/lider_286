@@ -6,6 +6,88 @@
     <title>Bandeira EPOCCA</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    
+body{
+    background-color: rgb(255, 136, 0);
+}
+#container{
+    background-image: url(./ing/CRFB3.SA.png);
+    
+    
+    margin:auto;  
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size:65%;
+    width: 70%;
+    height: 70%;
+    border: solid 2px black;
+    border-top-right-radius: 20%;
+    border-left: solid 20px ;
+
+  
+    transform-origin:left;
+    animation: band 5s infinite ease-in-out;
+       
+}
+
+@keyframes band{
+    0% {transform: rotateY(1deg);}
+    20% {transform: rotateY(5deg);}
+    40% {transform: rotateY(-5deg);}
+
+    50% {transform:rotateY(9deg);}
+    60% {transform:rotateY(6deg);}
+    70% {transform:rotateY(-1deg);}
+    80%{transform: rotateY(12deg);}
+    90%{transform: rotateY(5deg);}   
+    
+    100%{transform: rotateY(2deg);}
+
+  }
+  
+ 
+
+
+
+
+.clip{
+    clip-path: polygon(
+    0% 0%,5% 3%,10% 4%,15% 5%, 20% 5%,30% 3%,40% 2%,50% 2%,60% 3%,
+    70% 5%, 80% 7%, 90% 9%,95% 11%, 100% 13%,100% 100%,
+
+    95% 99%,90% 97%,85% 96%,80% 95%, 70% 92%, 60% 91%,50% 92%,
+    40% 93%,35% 94%,30% 95%,20% 95%,15% 94%, 10% 93%,5% 90%,
+    0% 85% );
+}
+
+.clip H2{
+    text-align: center;
+    margin-top: 15%;
+    font-size: max(30px, 5vw);
+}
+
+.clip H1{
+    width: 80%;
+    height: 20%;
+    text-align: center;   
+    margin-left: 5%;
+    padding-bottom: 18%;
+    font-size:max(65px, 11vw);
+    color: red;
+
+    
+
+   
+}
+
+h1{
+    text-align: center;
+    font-size: max(30px, 5vw);
+}
+</style>
 <body>
 
     <main>
